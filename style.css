@@ -1,0 +1,8 @@
+body {
+  background-image: url(BG10.jpg);
+  background-size: cover;
+}
+
+.bg-transparent {
+  background: rgb(255, 255 , 255 ,0.7);
+}
