@@ -2,7 +2,7 @@
 
 HTML、CSS、JavaScriptで作られたテトリスのウェブサイトです。
 
-### プレイはこちらから → [Tetris](https://teamdev-recursionred.github.io/work-space/)
+### プレイはこちらから → [Tetris](https://teamdev-recursionred.github.io/tetris_sns/)
 
 ## ゲームのルール
 
