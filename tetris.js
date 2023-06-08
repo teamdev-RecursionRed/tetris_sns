@@ -2,6 +2,9 @@
 let canvas = document.getElementById("canvas");
 let context = canvas.getContext("2d");
 
+//licenseDomの取得
+let license = document.getElementById("license");
+
 
 //各クラス
 class Helper {
@@ -450,21 +453,49 @@ class Game {
         interval = 200;
         Game.changeBGM(music.earthquake);
         document.body.style.backgroundImage = "url(BG2.jpg)";
+        license.innerHTML = 
+        `
+        Song: ROY KNOX - Earthquake [NCS Release]
+        Music provided by NoCopyrightSounds
+        Free Download/Stream: http://ncs.io/Earthquake
+        Watch: http://youtu.be/z_m0wtLMfdU
+        `
       }
       if(score >= 2000){
         interval = 130;
         Game.changeBGM(music.LoveU);
-        document.body.style.backgroundImage = "url(BG12.jpg)";
+        document.body.style.backgroundImage = "url(BG3.jpg)";
+        license.innerHTML = 
+        `
+        Song: Razihel - Love U [NCS Release]
+        Music provided by NoCopyrightSounds
+        Free Download/Stream: http://ncs.io/loveu
+        Watch: http://youtu.be/OJBxNA8cX-E
+        `
       }
       if(score >= 3000){
         interval = 75;
         Game.changeBGM(music.Puzzle);
-        document.body.style.backgroundImage = "url(BG13.png)";
+        document.body.style.backgroundImage = "url(BG4.jpg)";
+        license.innerHTML = 
+        `
+        Song: RetroVision - Puzzle [NCS Release]
+        Music provided by NoCopyrightSounds
+        Free Download/Stream: http://ncs.io/puzzle
+        Watch: http://youtu.be/TN_8D-79BZg
+        `
       }
       if(score >= 5000){
         interval = 50;
         Game.changeBGM(music.rush);
-        document.body.style.backgroundImage = "url(BG6.jpg)";
+        document.body.style.backgroundImage = "url(BG5.jpg)";
+        license.innerHTML = 
+        `
+        Song: Wubbaduck - Rush [NCS Release]
+        Music provided by NoCopyrightSounds
+        Free Download/Stream: http://ncs.io/RushFreeDL
+        Watch: http://youtu.be/vfN4AlCFlgw
+        `
       }
     }
 

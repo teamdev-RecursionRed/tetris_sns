@@ -1,6 +1,8 @@
 body {
-  background-image: url(BG10.jpg);
+  background-image: url(BG1.jpg);
   background-size: cover;
+
+  color:azure !important;
 }
 
 .bg-transparent {
